@@ -1,18 +1,14 @@
-//MADE BY WMND .gg/bypassi
-//uses stickx api
-
-
 const { Client } = require('discord.js');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const axios = require('axios')
 
-const token = 'TOKEN'; //the bots token
-const clientId = 'CLIENTID'; //the bots client id// user id
-const advertise = false; //if you want it to send server invite after command ran keep it true if not keep it false
-const serverinvite = "sever invite"; //server invite for when command ran it replies with server invite
-const madeby = "USERNAME"; //for embed like "Made By {name}"
-const apikey = "E99l9NOctud3vmu6bPne"; //api key using stickx. only change when key is invalid https://discord.gg/AqXmxKV8s8 new key in that server
+const token = 'MTIzMTg5MzYwNDM3MzQ5NTgzOA.GcbnQq.1bKV_Ami9ZBONkiFTE9a_FTbeO5-ncCvu-D6Yc'; //the bots token
+const clientId = '1231893604373495838'; //the bots client id// user id
+const advertise = true; //if you want it to send server invite after command ran keep it true if not keep it false
+const serverinvite = "https://discord.gg/doge-kingdom-reworked-beta-1155558345986555914"; //server invite for when command ran it replies with server invite
+const madeby = "devwhiz"; //for embed like "Made By {name}"
+const apikey = "E99l9NOctud3vmu6bPne";
 
 const commands = [
     {
@@ -768,3 +764,4 @@ async function vegax(interaction) {
 
 
 client.login(token);
+const keep_alive = require('./keep_alive.js')
