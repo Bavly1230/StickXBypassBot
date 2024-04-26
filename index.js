@@ -4,7 +4,7 @@ const { Routes } = require('discord-api-types/v9');
 const axios = require('axios')
 
 const token = 'put bot token here'; //the bots token
-const clientId = '1231893604373495838'; //the bots client id// user id
+const clientId = 'your bot user id'; //the bots client id// user id
 const advertise = true; //if you want it to send server invite after command ran keep it true if not keep it false
 const serverinvite = "https://discord.gg/doge-kingdom-reworked-beta-1155558345986555914"; //server invite for when command ran it replies with server invite
 const madeby = "devwhiz"; //for embed like "Made By {name}"
